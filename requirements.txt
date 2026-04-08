@@ -1,0 +1,38 @@
+# NFT Minter - Python Dependencies
+# Install with: pip install -r requirements.txt
+
+# Web3 for EVM chains
+web3>=6.15.0
+eth-account>=0.11.0
+eip712-structs
+eth-utils>=2.3.0
+
+# Solana
+solders>=0.20.0
+solana>=0.32.0
+spl-token
+
+# Async support
+aiohttp>=3.9.0
+aiohttp-socks
+aiodns
+asyncio-throttle
+
+# Utilities
+python-dotenv>=1.0.0
+requests>=2.31.0
+tenacity>=8.2.0
+colorama>=0.4.6
+tqdm>=4.66.0
+click>=8.1.0
+
+# Monitoring/Logging
+rich>=13.7.0
+structlog>=24.1.0
+
+# Optional: Flashbots (Ethereum MEV protection)
+# flashbots
+
+# Development (optional)
+pytest>=8.0.0
+black>=24.0.0
